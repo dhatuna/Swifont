@@ -32,8 +32,6 @@
 | :---: | :---: |
 | ![Interface](https://github.com/user-attachments/assets/057464b3-352c-4274-b47d-84f191eccec6) | ![Output](https://github.com/user-attachments/assets/9213f2f5-a981-4643-835b-66c2c111d58e) |
 
-*(Note: Please replace these placeholders with your actual application screenshots to showcase the elegance of Swifont.)*
-
 ---
 
 ## Usage Instructions
