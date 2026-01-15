@@ -1,0 +1,82 @@
+/*
+  Localizable.strings (Korean)
+  Swifont
+*/
+
+// MARK: - App
+"app.name" = "Swifont";
+"app.version" = "버전 1.0.0";
+"app.copyright" = "© 2024 Cocoslab";
+
+// MARK: - Menu
+"menu.open" = "열기...";
+"menu.about" = "Swifont 정보";
+
+// MARK: - About Dialog
+"about.title" = "Swifont";
+"about.description" = "폰트 라이선스 진단 및 Swift 코드 제너레이터";
+"about.features" = "폰트 파일을 드래그 앤 드롭하여:\n• 라이선스 위험도 진단\n• Swift Extension 코드 자동 생성";
+"about.ok" = "확인";
+
+// MARK: - Drop Zone
+"dropzone.title" = "폰트 파일을 여기에 드롭하세요";
+"dropzone.subtitle" = ".otf, .ttf, .ttc 파일 지원";
+"dropzone.loading" = "폰트 분석 중...";
+"dropzone.add_more" = "추가 폰트 파일을 드롭하거나";
+"dropzone.reset" = "초기화";
+
+// MARK: - Font List
+"fontlist.title" = "폰트 패밀리";
+"fontlist.empty" = "폰트 파일을 드롭하세요";
+"fontlist.weights" = "%d개 웨이트";
+"fontlist.count" = "%d개";
+
+// MARK: - Font Detail
+"fontdetail.swift_prefix" = "Swift: Font.";
+"fontdetail.license_info" = "라이선스 정보";
+
+// MARK: - Code Preview
+"codepreview.placeholder" = "// 폰트를 선택하면 코드가 표시됩니다.";
+"codepreview.copy" = "선택된 패밀리 복사";
+"codepreview.copy_all" = "전체 코드 복사";
+"codepreview.save" = "선택된 패밀리 저장";
+"codepreview.save_all" = "전체 코드 저장";
+"codepreview.copied" = "복사됨";
+
+// MARK: - Empty State
+"empty.title" = "시작하려면 폰트 파일을 드롭하세요";
+"empty.subtitle" = "라이선스를 진단하고 Swift 코드를 자동 생성합니다";
+
+// MARK: - Errors
+"error.file_access_denied" = "파일 접근 권한이 없습니다: %@";
+"error.invalid_font_file" = "유효한 폰트 파일이 아닙니다: %@";
+"error.metadata_extraction_failed" = "메타데이터 추출 실패 (%@): %@";
+"error.no_fonts_found" = "처리할 폰트 파일을 찾을 수 없습니다.";
+
+// MARK: - License Types
+"license.ofl" = "OFL (SIL Open Font License)";
+"license.apache" = "Apache License";
+"license.mit" = "MIT License";
+"license.commercial" = "상업용 라이선스";
+"license.personal_only" = "개인 사용만 허용";
+"license.restricted" = "사용 제한";
+"license.unknown" = "알 수 없음";
+
+// MARK: - License Descriptions
+"license.desc.ofl" = "자유롭게 사용, 수정, 재배포 가능. 상업적 이용 허용.";
+"license.desc.apache" = "상업적 이용 가능. 저작권 표시 필요.";
+"license.desc.mit" = "상업적 이용 가능. 저작권 표시 필요.";
+"license.desc.commercial" = "상업적 라이선스. 구매/계약 확인 필요.";
+"license.desc.personal_only" = "개인 사용만 허용. 상업적 이용 불가.";
+"license.desc.restricted" = "사용 제한 있음. 라이선스 확인 필수.";
+"license.desc.unknown" = "라이선스 정보 없음. 저작권자 확인 필요.";
+
+// MARK: - Risk Levels
+"risk.safe" = "안전";
+"risk.caution" = "주의";
+"risk.restricted" = "제한";
+
+// MARK: - File Dialog
+"dialog.select_fonts" = "분석할 폰트 파일을 선택하세요";
+"dialog.save_filename" = "Font+Extensions.swift";
+"dialog.save_filename_single" = "%@+Extension.swift";

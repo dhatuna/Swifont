@@ -1,0 +1,82 @@
+/*
+  Localizable.strings (English)
+  Swifont
+*/
+
+// MARK: - App
+"app.name" = "Swifont";
+"app.version" = "Version 1.0.0";
+"app.copyright" = "© 2024 Cocoslab";
+
+// MARK: - Menu
+"menu.open" = "Open...";
+"menu.about" = "About Swifont";
+
+// MARK: - About Dialog
+"about.title" = "Swifont";
+"about.description" = "Font License Analyzer & Swift Code Generator";
+"about.features" = "Drag and drop font files to:\n• Analyze license risk\n• Generate Swift Extension code";
+"about.ok" = "OK";
+
+// MARK: - Drop Zone
+"dropzone.title" = "Drop font files here";
+"dropzone.subtitle" = "Supports .otf, .ttf, .ttc files";
+"dropzone.loading" = "Analyzing fonts...";
+"dropzone.add_more" = "Drop more font files or";
+"dropzone.reset" = "Reset";
+
+// MARK: - Font List
+"fontlist.title" = "Font Families";
+"fontlist.empty" = "Drop font files to start";
+"fontlist.weights" = "%d weights";
+"fontlist.count" = "%d";
+
+// MARK: - Font Detail
+"fontdetail.swift_prefix" = "Swift: Font.";
+"fontdetail.license_info" = "License Information";
+
+// MARK: - Code Preview
+"codepreview.placeholder" = "// Select a font to see generated code.";
+"codepreview.copy" = "Copy Selected Family";
+"codepreview.copy_all" = "Copy All Code";
+"codepreview.save" = "Save Selected Family";
+"codepreview.save_all" = "Save All Code";
+"codepreview.copied" = "Copied";
+
+// MARK: - Empty State
+"empty.title" = "Drop font files to start";
+"empty.subtitle" = "Analyze licenses and auto-generate Swift code";
+
+// MARK: - Errors
+"error.file_access_denied" = "File access denied: %@";
+"error.invalid_font_file" = "Invalid font file: %@";
+"error.metadata_extraction_failed" = "Metadata extraction failed (%@): %@";
+"error.no_fonts_found" = "No font files found to process.";
+
+// MARK: - License Types
+"license.ofl" = "OFL (SIL Open Font License)";
+"license.apache" = "Apache License";
+"license.mit" = "MIT License";
+"license.commercial" = "Commercial License";
+"license.personal_only" = "Personal Use Only";
+"license.restricted" = "Restricted";
+"license.unknown" = "Unknown";
+
+// MARK: - License Descriptions
+"license.desc.ofl" = "Free to use, modify, and redistribute. Commercial use allowed.";
+"license.desc.apache" = "Commercial use allowed. Attribution required.";
+"license.desc.mit" = "Commercial use allowed. Attribution required.";
+"license.desc.commercial" = "Commercial license. Verify purchase/contract.";
+"license.desc.personal_only" = "Personal use only. Commercial use not allowed.";
+"license.desc.restricted" = "Usage restrictions apply. Verify license.";
+"license.desc.unknown" = "License info unavailable. Contact copyright holder.";
+
+// MARK: - Risk Levels
+"risk.safe" = "Safe";
+"risk.caution" = "Caution";
+"risk.restricted" = "Restricted";
+
+// MARK: - File Dialog
+"dialog.select_fonts" = "Select font files to analyze";
+"dialog.save_filename" = "Font+Extensions.swift";
+"dialog.save_filename_single" = "%@+Extension.swift";
